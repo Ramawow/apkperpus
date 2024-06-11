@@ -84,8 +84,9 @@ $history = $pdo->query("
 </head>
 
 <body>
+<div class="container">
     <h1>Aplikasi Perpustakaan</h1>
-    <div>
+    <div class="form-container">
         <h2>Tambah Peminjam</h2>
         <form id="form-peminjam" method="POST">
             <input type="hidden" name="action" value="add_peminjam">
@@ -166,7 +167,7 @@ $history = $pdo->query("
             <?php endforeach; ?>
         </ul>
     </div>
-
+</div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="app.js"></script>
     <script>

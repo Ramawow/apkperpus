@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
-$user = 'root';
 $dbname = 'perpustakaan';
+$user = 'root';
 $pass = '';
 
 try {
